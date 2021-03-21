@@ -88,7 +88,7 @@ class TrelloFacadeTest {
 
         // Then
         assertThat(trelloBoardDtos).isNotNull();
-        assertThat(trelloBoardDtos.size()).isEqualTo(0);
+        assertThat(trelloBoardDtos.size()).isEqualTo(1);
 
         trelloBoardDtos.forEach(trelloBoardDto -> {
 
