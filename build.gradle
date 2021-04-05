@@ -24,13 +24,13 @@ dependencies {
 	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'com.google.code.gson:gson'
-	runtimeOnly 'mysql:mysql-connector-java'
+	//runtimeOnly 'mysql:mysql-connector-java'
 	compileOnly 'org.projectlombok:lombok:1.18.12'
 	annotationProcessor 'org.projectlombok:lombok:1.18.12'
 	testCompileOnly 'org.projectlombok:lombok:1.18.12'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
-	//runtimeOnly 'org.postgresql:postgresql'
+	runtimeOnly 'org.postgresql:postgresql'
 	// providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	//implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 }
